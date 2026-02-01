@@ -1,0 +1,10 @@
+tuple1 = (1, 2, 3, 4, 5)
+print("Original tuple:", tuple1)
+tuple2 = (20, 30, 45)
+tuple3 = tuple1 + tuple2
+tuple4 = tuple3 + (50,)
+print("Tuple:", tuple4)
+tuple4.count(20)
+d = (1, 2, 3, 4, 5, 6, 7)
+print("Tuple with 7 elements:", d)
+print(d[2:5])
